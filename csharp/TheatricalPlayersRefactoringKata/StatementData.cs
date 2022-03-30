@@ -4,11 +4,13 @@ namespace TheatricalPlayersRefactoringKata
     {
         public int VolumeCredits { get; }
         public int TotalAmount { get; }
+        public string CustomerName { get; }
 
-        public StatementData(int volumeCredits, int totalAmount)
+        public StatementData(int volumeCredits, int totalAmount, string customerName)
         {
             VolumeCredits = volumeCredits;
             TotalAmount = totalAmount;
+            CustomerName = customerName;
         }
     }
 }
