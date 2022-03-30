@@ -11,7 +11,7 @@ namespace TheatricalPlayersRefactoringKata.Tests
     {
         [Test]
         [UseReporter(typeof(DiffReporter))]
-        public void Test_statement_plain_text_example()
+        public void test_statement_plain_text_example()
         {
             var plays = new Dictionary<string, Play>();
             plays.Add("hamlet", new Play("Hamlet", "tragedy"));
